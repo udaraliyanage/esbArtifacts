@@ -1,1 +1,5 @@
-this will never work
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoint xmlns="http://ws.apache.org/ns/synapse" name="udaraEndpoint">
+   <address uri="http://esb.s2.wso2.com:8290/services/echo"/>
+</endpoint>
+
