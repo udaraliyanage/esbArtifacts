@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <proxy xmlns="http://ws.apache.org/ns/synapse"
-       name="udaraProxy"
+       name="AsankaudaraProxy"
        transports="https http"
        startOnLoad="true"
        trace="disable">
