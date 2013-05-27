@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse"
+       name="Proxy"
+       transports="https http"
+       startOnLoad="true"
+       trace="disable">
+   <target>
+      <endpoint>
+         <address uri="http://www.webservicex.net/stockquote.asmx"/>
+      </endpoint>
+      <outSequence>
+         <send/>
+      </outSequence>
+   </target>
+   <publishWSDL uri="http://www.webservicex.net/stockquote.asmx?wsdl"/>
+</proxy>
+
